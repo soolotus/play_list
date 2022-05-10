@@ -1,0 +1,129 @@
+.top-bar {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 10px 20px;
+  color: rgb(63, 54, 30);
+}
+.top-box {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover img {
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgb(63, 54, 30);
+  margin-bottom: 30px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(63, 54, 30);
+  margin-bottom: 10px;
+}
+.kind {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+.middle-box {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 40px 0;
+  font-size: 13px;
+}
+.middle-box__shuffle {
+  background-color: rgb(63, 54, 30);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 17.5px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.1);
+}
+.middle-box__heart {
+  color: rgb(63, 54, 30);
+  background-color: white;
+  padding: 12px 30px;
+  border-radius: 17.5px;
+  box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.1);
+}
+
+.middle-box__heart span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.list {
+  display: flex;
+
+  margin: 0 20px;
+  padding: 10px 10px;
+}
+.list__img {
+  position: relative;
+}
+.list__img img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.list__img i {
+  position: absolute;
+  left: 10px;
+  bottom: 13px;
+
+  color: rgba(233, 239, 245, 0.8);
+}
+.list__right-box {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-botton__name,
+.list__text__name {
+  font-size: 12px;
+  margin-bottom: 3px;
+  color: rgb(158, 154, 154);
+}
+.list__text__title {
+  font-size: 15px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.list__dots {
+  color: rgba(0, 0, 0, 0.4);
+}
+.list--selected {
+  background-color: white;
+  box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  margin: 0 20px;
+  padding: 10px 10px;
+}
+.box-bottom {
+  background-color: rgb(63, 54, 30);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 10px 20px;
+  padding: 12px 10px 12px 20px;
+  color: white;
+  box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.4);
+}
+
+.box-bottom__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-bottom__icons i {
+  margin-right: 15px;
+}

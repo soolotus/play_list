@@ -1,0 +1,23 @@
+@import "firstbox.css";
+@import "secondbox.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(134, 135, 163, 0.2);
+}
+.box {
+  background-color: rgb(247, 249, 252);
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.1);
+}
